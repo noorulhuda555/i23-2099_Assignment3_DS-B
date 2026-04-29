@@ -556,7 +556,7 @@ def main():
         temperature = st.slider("Temperature", min_value=0.2, max_value=2.0, value=0.8, step=0.1)
 
     default_text = (
-        ""
+        "the headphones work as expected sound quality is decent and the build feels average not too sturdy not too flimsy the ear cushions are okay for short use but get uncomfortable after an hour battery life is about what they advertise nothing special but gets the job done"
     )
 
     user_review = st.text_area("Enter a review:", value=default_text, height=140)
